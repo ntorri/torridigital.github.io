@@ -13,7 +13,7 @@ show run
 !--- Overwrite the password.
 
 configure terminal
-enable secret Blue777Sky!!
+enable secret 
 
 show ip interface brief
 int range g0/1 - 48
@@ -25,7 +25,7 @@ no shutdown
 exit
 
 line vty 0 4
-password Blue777Sky!!
+password 
 ^Z
 
 show version
